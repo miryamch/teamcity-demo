@@ -27,7 +27,7 @@ public class CarTest extends TestCase {
 	}
 
 	public void testGetModel() {
-		assertTrue(true);
+//		fail("Not yet implemented");
 	}
 
 	public void testSetModel() {
