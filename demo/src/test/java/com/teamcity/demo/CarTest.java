@@ -23,7 +23,7 @@ public class CarTest extends TestCase {
 	}
 
 	public void testSetBrand() {
-//		fail("Not yet implemented");
+		assertTrue(true);
 	}
 
 	public void testGetModel() {
