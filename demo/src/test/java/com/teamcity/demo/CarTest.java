@@ -16,7 +16,10 @@ public class CarTest extends TestCase {
 	}
 
 	public void testGetBrand() {
-//		fail("Not yet implemented");
+		String expected = "BMW" ; 
+		Car car = new Car(expected, "X5"); 
+		String carBrand = car.getBrand(); 
+		assertEquals(expected, carBrand);
 	}
 
 	public void testSetBrand() {
